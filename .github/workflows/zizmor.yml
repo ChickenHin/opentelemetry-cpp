@@ -1,11 +1,11 @@
 name: Zizmor
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-  schedule:
-    - cron: '14 19 * * 4' # weekly at 19:14 UTC on Thursday
+  # push:
+  #   branches: [main]
+  # pull_request:
+  # schedule:
+  #   - cron: '14 19 * * 4' # weekly at 19:14 UTC on Thursday
   workflow_dispatch:
 
 permissions: {}
