@@ -1,8 +1,8 @@
 name: OpenTelemetry-cpp benchmarks
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 permissions:
   contents: read
